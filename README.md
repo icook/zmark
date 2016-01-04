@@ -1,4 +1,4 @@
-# Zmark
+# ZMark
 =======
 
 
@@ -25,13 +25,11 @@ Accordingly, the minimum reward for this epoch would be 1 BTM (1/20 of 20) as th
 
 Block quartering and halving as implemented in the original Bitmark code strictly limits total coin emission (money supply) to less than 27 million 580 thousand bitmarks ( 27,579,999.9927 BTM exactly). This limit is respected faithfully, but quartering and halvings are now triggered whenever money supply reaches the expected epoch thresholds, which is not dependent any longer on the number of blocks, but rather, the total money supply (coins issued), since money supply is decoupled from, and not linearly dependent on, the number of blocks on-chain.
 
-Marking Facilities and App API Usage Reference Implementations
+Marking Facilities and API Usage Reference Implementations
 ----------------------------------------------------------------
 
 Marking: Digital Notary Service Facility 
 Federated Merkle Tree Hash Proof Root Insertion.
-
-
 
 ---------------------------------
 For configuration details see the [wiki](https://github.com/zmark-project/zmark/wiki)
